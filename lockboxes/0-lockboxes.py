@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def canUnlockAll(boxes):
     opened = set([0])
     keys = boxes[0][:]
