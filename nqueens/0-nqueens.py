@@ -43,7 +43,7 @@ def solve_nqueens(n, row, current_solution, solutions):
         if is_safe:
             current_solution.append([row, col])
             solve_nqueens(n, row + 1, current_solution, solutions)
-            current_solution.pop() 
+            current_solution.pop()
 
 
 def main():
