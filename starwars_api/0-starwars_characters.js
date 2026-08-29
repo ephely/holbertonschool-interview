@@ -25,7 +25,7 @@ request(filmUrl, (error, response, body) => {
  * @param {Array} characters - URLs of characters
  * @param {number} index - current character index
  */
-function fetchCharacter(characters, index) {
+function fetchCharacter (characters, index) {
   if (index >= characters.length) {
     return;
   }
